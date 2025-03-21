@@ -1,0 +1,13 @@
+.full-screen {
+    width: 100vw;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  
+.full-screen img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover; /* Para cobrir toda a tela sem distorcer */
+  }
