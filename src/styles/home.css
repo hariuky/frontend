@@ -1,0 +1,43 @@
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin-top: 20px;
+}
+
+.full-screen img {
+  width: 805px;
+  height: 208px;
+  margin-top: 0;
+}
+
+
+@media (max-width: 1200px) {
+  .full-screen img {
+      width: 600px;
+      height: auto; 
+      margin-top: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .full-screen img {
+      width: 100%;
+      max-width: 400px; 
+      height: auto;
+      margin-top: 0;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .full-screen img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin-top: 0;
+  }
+}

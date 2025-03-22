@@ -1,0 +1,38 @@
+nav {
+    background: #242323;
+    padding: 0px;
+    width: 100vw;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ffdd57;
+  }
+  header img{
+    text-align: center;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100vw;
+  }
+  header img{
+    height: 60px;
+  }

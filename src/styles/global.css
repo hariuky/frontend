@@ -1,0 +1,26 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  /* Estilizar o cabeçalho */
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
